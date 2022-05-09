@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   
+   <bean id="airtel" class="MavenBuild.Maven2.Airtel">
+   <property name="datastrength" value="airtel has good signal"></property>
+   
+  </bean>
+   <bean id="idea" class="MavenBuild.Maven2.Idea">
+   <constructor-arg name="datastrength" value="idea has good signal in metropolitan cities"></constructor-arg>
+   
+   </bean>
+  
+   
+   
+   </beans>
+
